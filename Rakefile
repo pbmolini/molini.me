@@ -3,7 +3,7 @@ task :default => :preview
 #
 # Set the values of
 #
-$deploy_url = "http://pbmolini.github.com/molini.me"    # where the system will live
+$deploy_url = "http://molini.me"    # where the system will live
 # $deploy_dir = "user@host:~/some-location/"        # where the sources live
 # $post_dir   = "_posts/"                           # where posts are created
 #
