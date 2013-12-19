@@ -7,11 +7,21 @@ html, body {
 	div.site {
 		background-image: url(../images/nonni_h.jpg);
 	}
+
+	h1.title {
+		font-weight: 900;
+		font-size: 4.5em;
+	}
 }
 
 @media only screen and (max-width: 40em) {
 	div.site {
 		background-image: url(../images/nonni_v.jpg);
+	}
+
+	h1.title {
+		font-weight: 500;
+		font-size: 3.5em;
 	}
 }
 
@@ -23,8 +33,6 @@ div.site {
 }
 
 h1.title {
-	font-weight: 900;
-	font-size: 4.5em;
 	line-height: 2;
 	letter-spacing: -2px;
 }
@@ -45,9 +53,9 @@ span.highlight-dark {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -3em;
+	margin: 0 auto -4.5em;
 }
 
 .footer, .push {
-	height: 3em;
+	height: 4.5em;
 }
