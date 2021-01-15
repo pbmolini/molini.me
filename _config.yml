@@ -1,4 +1,4 @@
 name: molini.me
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 url: https://molini.me
